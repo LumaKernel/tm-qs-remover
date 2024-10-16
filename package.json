@@ -1,0 +1,20 @@
+{
+  "name": "qs-remover",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "build": "shx rm -rf dist/ && tsc && vite build && shx mv",
+    "lint-fix": "prettier --write .",
+    "lint": "prettier --list-different .",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "shx": "^0.3.4",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.12",
+    "vite-plugin-monkey": "^4.0.0"
+  },
+  "packageManager": "npm@10.8.2+sha512.c7f0088c520a46596b85c6f8f1da943400199748a0f7ea8cb8df75469668dc26f6fb3ba26df87e2884a5ebe91557292d0f3db7d0929cdb4f14910c3032ac81fb"
+}
