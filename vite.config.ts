@@ -11,6 +11,7 @@ export default defineConfig({
         author: "Luma",
         match: ["https://*/*", "http://*/*"],
         namespace: "github.com/LumaKernel",
+        homepageURL: "https://github.com/LumaKernel/tm-qs-remover",
       },
     }),
   ],
