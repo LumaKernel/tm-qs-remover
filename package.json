@@ -1,10 +1,10 @@
 {
   "name": "qs-remover",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
-    "build": "shx rm -rf dist/ && tsc && vite build && shx mv",
+    "build": "shx rm -rf dist/ && tsc && vite build",
     "lint-fix": "prettier --write .",
     "lint": "prettier --list-different .",
     "typecheck": "tsc --noEmit"
